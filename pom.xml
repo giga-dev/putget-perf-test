@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.gigaspaces.app</groupId>
-    <artifactId>my-perf-test</artifactId>
+    <artifactId>putget-perf-test</artifactId>
     <version>0.1</version>
 
     <properties>
