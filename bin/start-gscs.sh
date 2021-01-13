@@ -1,5 +1,5 @@
 #!/bin/sh -x
-source start-env.sh
+. ./start-env.sh
 sh ${GS_HOME}/bin/gs.sh --server ${GS_MANAGER_SERVERS} container create \
 	--memory=1g --count=1 \
 	--vm-option=-Duse_map_server=true \
