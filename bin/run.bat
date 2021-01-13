@@ -1,0 +1,1 @@
+java -cp "%GS_HOME%\lib\required\*";"..\target\*" com.gigaspaces.app.Test %*

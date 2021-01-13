@@ -1,0 +1,474 @@
+2021-01-13 09:15:38,207 CONFIG [com.gigaspaces.logger] - Log file: /Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/logs/2021-01-13~09.15-gigaspaces-gsa-Merons-MacBook-Pro.local-38076.log
+2021-01-13 09:15:38,183  INFO [com.gigaspaces.start] - Starting ServiceGrid [user=mavigdor, command="services=GSA --manager"]
+2021-01-13 09:15:38,371  INFO [com.gigaspaces.start] - Exported JMX Platform MBeanServer with RMI Connector [duration=0.044s, url=service:jmx:rmi:///jndi/rmi://Merons-MacBook-Pro.local:10098/jmxrmi]
+2021-01-13 09:15:38,954 GSA INFO [com.gigaspaces.grid.gsa] - Starting GSA...
+*********************************** System Report ***********************************
+GigaSpaces XAP 15.8.0-m16
+    Home: /Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16
+    Lookup Groups: local
+    Manager Servers: [127.0.0.1]
+    License: tryme
+Java:
+    Java Runtime: Java(TM) SE Runtime Environment 1.8.0_211-b12 (Oracle Corporation)
+    Java VM: Java HotSpot(TM) 64-Bit Server VM 25.211-b12 (Oracle Corporation)
+    Java Home: /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+    Memory: Currently used 54MB, Current heap size 514MB, Max heap size 514MB
+Operating System: Mac OS X [version=10.15.4, architecture=x86_64, processors=8]
+Process Id: 38076
+Network:
+    Local Host: [Merons-MacBook-Pro.local/127.0.0.1] 
+    lo0: lo0 [IP addresses: fe80:0:0:0:0:0:0:1%lo0 | 0:0:0:0:0:0:0:1%lo0 | 127.0.0.1]
+*************************************************************************************
+2021-01-13 09:15:38,957 GSA INFO [com.gigaspaces.license] - You are using the GigaSpaces 'TRYME' trial license. You can explore all of the product functionality, including our Premium and Enterprise features, for 24 hours.
+2021-01-13 09:15:38,957 GSA INFO [com.gigaspaces.license] - When the trial license expires, this process will self-terminate. You can get an extended evaluation license from gigaspaces.com/eval-license.
+2021-01-13 09:15:38,958 GSA INFO [com.gigaspaces.license] - Remaining time before your trial license expires and process terminates: 23:59:59
+2021-01-13 09:15:38,958 GSA INFO [com.gigaspaces.license] - 
+-----------------------------------------------------------------------------------
+*  Your license will expire in 1 days.
+*  To extend your evaluation period please contact your local GigaSpaces(TM) 
+*  software sales representative or access GigaSpaces Support Center at 
+*  www.gigaspaces.com
+-----------------------------------------------------------------------------------
+2021-01-13 09:15:39,118 GSA INFO [com.gigaspaces.grid.gsa] - GSA will use discovery groups [local] and locators [jini://127.0.0.1:4174/]
+2021-01-13 09:15:39,149 GSA WARNING [net.jini.discovery.LookupLocatorDiscovery] - java.net.ConnectException: Connection refused (Connection refused) - using unicast locator 127.0.0.1:4174 - delay next lookup by 1000 ms
+2021-01-13 09:15:39,161 GSA INFO [com.gigaspaces.grid.gsa] - Starting [1] of [manager]
+2021-01-13 09:15:39,164 GSA INFO [com.gigaspaces.grid.gsa] - [manager][1/]: Starting with command [/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/bin/gs.sh, services=MANAGER[LH,ZK,GSM,REST]]
+2021-01-13 09:15:39,170 GSA INFO [com.gigaspaces.grid.gsa] - GSA will use an interval of [1] seconds to monitor processes
+2021-01-13 09:15:39,172 GSA INFO [com.gigaspaces.grid.gsa] - GSA will check for global managed instances every [10] seconds, with randomized initial delay of [17] seconds out of [30] seconds
+2021-01-13 09:15:39,193 CommonClassLoader INFO [com.gigaspaces.grid.gsa] - GSA started successfully with groups [local] and locators [jini://127.0.0.1:4174/]
+[manager][1/]	2021-01-13 09:15:39,534 CONFIG [com.gigaspaces.logger] - Log file: /Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/logs/2021-01-13~09.15-gigaspaces-manager_1-Merons-MacBook-Pro.local-38080.log
+[manager][1/]	2021-01-13 09:15:39,510  INFO [com.gigaspaces.start] - Starting ServiceGrid [user=mavigdor, command="services=MANAGER[LH,ZK,GSM,REST]"]
+2021-01-13 09:15:39,551 GSA INFO [com.gigaspaces.grid.gsa] - [manager][1/38080]: Assigned process id
+[manager][1/38080]	2021-01-13 09:15:39,699  INFO [com.gigaspaces.start] - Exported JMX Platform MBeanServer with RMI Connector [duration=0.046s, url=service:jmx:rmi:///jndi/rmi://Merons-MacBook-Pro.local:10099/jmxrmi]
+2021-01-13 09:15:40,152 GSA WARNING [net.jini.discovery.LookupLocatorDiscovery] - java.net.ConnectException: Connection refused (Connection refused) - using unicast locator 127.0.0.1:4174 - delay next lookup by 5000 ms
+[manager][1/38080]	2021-01-13 09:15:40,299 LUS INFO [com.sun.jini.reggie.GigaRegistrar] - Starting Lookup Service...
+[manager][1/38080]	*********************************** System Report ***********************************
+[manager][1/38080]	GigaSpaces XAP 15.8.0-m16
+[manager][1/38080]	    Home: /Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16
+[manager][1/38080]	    Lookup Groups: local
+[manager][1/38080]	    Manager Servers: [127.0.0.1]
+[manager][1/38080]	    License: tryme
+[manager][1/38080]	    Managed by GSA with Id: 1
+[manager][1/38080]	Java:
+[manager][1/38080]	    Java Runtime: Java(TM) SE Runtime Environment 1.8.0_211-b12 (Oracle Corporation)
+[manager][1/38080]	    Java VM: Java HotSpot(TM) 64-Bit Server VM 25.211-b12 (Oracle Corporation)
+[manager][1/38080]	    Java Home: /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+[manager][1/38080]	    Memory: Currently used 57MB, Current heap size 514MB, Max heap size 514MB
+[manager][1/38080]	Operating System: Mac OS X [version=10.15.4, architecture=x86_64, processors=8]
+[manager][1/38080]	Process Id: 38080
+[manager][1/38080]	Network:
+[manager][1/38080]	    Local Host: [Merons-MacBook-Pro.local/127.0.0.1] 
+[manager][1/38080]	    lo0: lo0 [IP addresses: fe80:0:0:0:0:0:0:1%lo0 | 0:0:0:0:0:0:0:1%lo0 | 127.0.0.1]
+[manager][1/38080]	*************************************************************************************
+[manager][1/38080]	2021-01-13 09:15:40,416 LUS INFO [com.sun.jini.reggie.GigaRegistrar] - Started Lookup Service [duration=0.194s, groups=[local], service-id=1fd98693-0d37-45ac-a145-cf5a974b992f, locator=jini://Merons-MacBook-Pro.local:4174/]
+[manager][1/38080]	2021-01-13 09:15:40,423 LUS INFO [net.jini.discovery.LookupLocatorDiscovery] - Connected to LUS using locator 127.0.0.1:4174
+[manager][1/38080]	2021-01-13 09:15:40,432 ZK INFO [com.gigaspaces.zookeeper] - zookeeper instance using generated conf file /Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/work/manager/zookeeper/zookeeper-4404020351585159256.cfg
+[manager][1/38080]	2021-01-13 09:15:40,433 ZK INFO [org.apache.zookeeper.jmx.ManagedUtil] - Log4j 1.2 jmx support is disabled by property.
+[manager][1/38080]	2021-01-13 09:15:40,436 ZK INFO [org.apache.zookeeper.server.quorum.QuorumPeerConfig] - Reading configuration from: /Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/work/manager/zookeeper/zookeeper-4404020351585159256.cfg
+[manager][1/38080]	2021-01-13 09:15:40,437 ZK INFO [org.apache.zookeeper.server.quorum.QuorumPeerConfig] - clientPortAddress is 0.0.0.0:2181
+[manager][1/38080]	2021-01-13 09:15:40,438 ZK INFO [org.apache.zookeeper.server.quorum.QuorumPeerConfig] - secureClientPort is not set
+[manager][1/38080]	2021-01-13 09:15:40,438 ZK INFO [org.apache.zookeeper.server.ZooKeeperServerMain] - Starting server
+[manager][1/38080]	2021-01-13 09:15:40,440 ZK INFO [org.apache.zookeeper.server.persistence.FileTxnSnapLog] - zookeeper.snapshot.trust.empty : false
+[manager][1/38080]	2021-01-13 09:15:40,451 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:zookeeper.version=3.5.8-f439ca583e70862c3068a1f2a7d4d068eec33315, built on 05/04/2020 15:53 GMT
+[manager][1/38080]	2021-01-13 09:15:40,451 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:host.name=localhost
+[manager][1/38080]	2021-01-13 09:15:40,451 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:java.version=1.8.0_211
+[manager][1/38080]	2021-01-13 09:15:40,451 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:java.vendor=Oracle Corporation
+[manager][1/38080]	2021-01-13 09:15:40,452 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+[manager][1/38080]	2021-01-13 09:15:40,452 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:java.class.path=/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/sigar/sigar.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/oshi-core.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/jna.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/jna-platform.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/slf4j-jdk14-1.7.26.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/xap-slf4j.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/slf4j-api-1.7.26.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-api-0.33.0.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/xap-common.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-noop-0.33.0.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/spring-jcl-5.1.19.RELEASE.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-util-0.33.0.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/service-grid/xap-service-grid-boot.jar
+[manager][1/38080]	2021-01-13 09:15:40,452 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:java.library.path=/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/native
+[manager][1/38080]	2021-01-13 09:15:40,452 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:java.io.tmpdir=/var/folders/ky/s2sgxf8x3472nl7lwv9f2v500000gn/T/
+[manager][1/38080]	2021-01-13 09:15:40,452 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:java.compiler=<NA>
+[manager][1/38080]	2021-01-13 09:15:40,452 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:os.name=Mac OS X
+[manager][1/38080]	2021-01-13 09:15:40,453 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:os.arch=x86_64
+[manager][1/38080]	2021-01-13 09:15:40,453 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:os.version=10.15.4
+[manager][1/38080]	2021-01-13 09:15:40,453 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:user.name=mavigdor
+[manager][1/38080]	2021-01-13 09:15:40,453 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:user.home=/Users/meron
+[manager][1/38080]	2021-01-13 09:15:40,453 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:user.dir=/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/bin
+[manager][1/38080]	2021-01-13 09:15:40,454 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:os.memory.free=407MB
+[manager][1/38080]	2021-01-13 09:15:40,454 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:os.memory.max=491MB
+[manager][1/38080]	2021-01-13 09:15:40,454 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Server environment:os.memory.total=491MB
+[manager][1/38080]	2021-01-13 09:15:40,456 GSM INFO [com.gigaspaces.start] - Created Webster on http://127.0.0.1:51383/ [roots=/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib;/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required;/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/deploy]
+[manager][1/38080]	2021-01-13 09:15:40,456 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - minSessionTimeout set to 2000
+[manager][1/38080]	2021-01-13 09:15:40,457 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - maxSessionTimeout set to 60000
+[manager][1/38080]	2021-01-13 09:15:40,458 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Created server with tickTime 1000 minSessionTimeout 2000 maxSessionTimeout 60000 datadir /Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/work/manager/zookeeper/log/version-2 snapdir /Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/work/manager/zookeeper/data/version-2
+[manager][1/38080]	2021-01-13 09:15:40,489 ZK INFO [org.apache.zookeeper.server.ServerCnxnFactory] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+[manager][1/38080]	2021-01-13 09:15:40,490 ZK INFO [org.apache.zookeeper.server.NIOServerCnxnFactory] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+[manager][1/38080]	2021-01-13 09:15:40,493 ZK INFO [org.apache.zookeeper.server.NIOServerCnxnFactory] - binding to port 0.0.0.0/0.0.0.0:2181
+[manager][1/38080]	2021-01-13 09:15:40,502 ZK INFO [org.apache.zookeeper.server.ZKDatabase] - zookeeper.snapshotSizeFactor = 0.33
+[manager][1/38080]	2021-01-13 09:15:40,513 ZK INFO [org.apache.zookeeper.server.persistence.FileSnap] - Reading snapshot /Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/work/manager/zookeeper/data/version-2/snapshot.1516
+[manager][1/38080]	2021-01-13 09:15:40,529 ZK INFO [org.apache.zookeeper.server.persistence.FileTxnSnapLog] - Snapshotting: 0x1534 to /Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/work/manager/zookeeper/data/version-2/snapshot.1534
+[manager][1/38080]	2021-01-13 09:15:40,547 ZK INFO [org.apache.zookeeper.server.ContainerManager] - Using checkIntervalMs=60000 maxPerMinute=10000
+[manager][1/38080]	2021-01-13 09:15:40,600 GSM INFO [org.apache.curator.framework.imps.CuratorFrameworkImpl] - Starting
+[manager][1/38080]	2021-01-13 09:15:40,606 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:zookeeper.version=3.5.8-f439ca583e70862c3068a1f2a7d4d068eec33315, built on 05/04/2020 15:53 GMT
+[manager][1/38080]	2021-01-13 09:15:40,606 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:host.name=localhost
+[manager][1/38080]	2021-01-13 09:15:40,606 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.version=1.8.0_211
+[manager][1/38080]	2021-01-13 09:15:40,606 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.vendor=Oracle Corporation
+[manager][1/38080]	2021-01-13 09:15:40,606 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+[manager][1/38080]	2021-01-13 09:15:40,607 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.class.path=/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/sigar/sigar.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/oshi-core.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/jna.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/jna-platform.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/slf4j-jdk14-1.7.26.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/xap-slf4j.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/slf4j-api-1.7.26.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-api-0.33.0.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/xap-common.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-noop-0.33.0.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/spring-jcl-5.1.19.RELEASE.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-util-0.33.0.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/service-grid/xap-service-grid-boot.jar
+[manager][1/38080]	2021-01-13 09:15:40,607 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.library.path=/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/native
+[manager][1/38080]	2021-01-13 09:15:40,607 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.io.tmpdir=/var/folders/ky/s2sgxf8x3472nl7lwv9f2v500000gn/T/
+[manager][1/38080]	2021-01-13 09:15:40,607 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.compiler=<NA>
+[manager][1/38080]	2021-01-13 09:15:40,607 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.name=Mac OS X
+[manager][1/38080]	2021-01-13 09:15:40,607 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.arch=x86_64
+[manager][1/38080]	2021-01-13 09:15:40,607 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.version=10.15.4
+[manager][1/38080]	2021-01-13 09:15:40,607 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:user.name=mavigdor
+[manager][1/38080]	2021-01-13 09:15:40,607 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:user.home=/Users/meron
+[manager][1/38080]	2021-01-13 09:15:40,607 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:user.dir=/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/bin
+[manager][1/38080]	2021-01-13 09:15:40,608 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.memory.free=341MB
+[manager][1/38080]	2021-01-13 09:15:40,608 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.memory.max=455MB
+[manager][1/38080]	2021-01-13 09:15:40,608 GSM INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.memory.total=388MB
+[manager][1/38080]	2021-01-13 09:15:40,610 GSM INFO [org.apache.zookeeper.ZooKeeper] - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=15000 watcher=org.apache.curator.ConnectionState@44a59da3
+[manager][1/38080]	2021-01-13 09:15:40,613 GSM INFO [org.apache.zookeeper.common.X509Util] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+[manager][1/38080]	2021-01-13 09:15:40,615 GSM INFO [org.apache.zookeeper.ClientCnxnSocket] - jute.maxbuffer value is 4194304 Bytes
+[manager][1/38080]	2021-01-13 09:15:40,620 GSM INFO [org.apache.zookeeper.ClientCnxn] - zookeeper.request.timeout value is 0. feature enabled=
+[manager][1/38080]	2021-01-13 09:15:40,628 GSM INFO [org.apache.curator.framework.imps.CuratorFrameworkImpl] - Default schema
+[manager][1/38080]	2021-01-13 09:15:40,630 GSM INFO [org.apache.zookeeper.ClientCnxn] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[manager][1/38080]	2021-01-13 09:15:40,634 GSM INFO [org.apache.zookeeper.ClientCnxn] - Socket connection established, initiating session, client: /127.0.0.1:51384, server: localhost/127.0.0.1:2181
+[manager][1/38080]	2021-01-13 09:15:40,641 ZK INFO [org.apache.zookeeper.server.persistence.FileTxnLog] - Creating new log file: log.1535
+[manager][1/38080]	2021-01-13 09:15:40,647 GSM INFO [com.gigaspaces.zookeeper.leader-selector.gsm.3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7] - Started
+[manager][1/38080]	2021-01-13 09:15:40,647 GSM INFO [org.apache.zookeeper.ClientCnxn] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x100436aba720000, negotiated timeout = 15000
+[manager][1/38080]	2021-01-13 09:15:40,667 GSM INFO [org.apache.curator.framework.state.ConnectionStateManager] - State change: CONNECTED
+[manager][1/38080]	2021-01-13 09:15:40,669 GSM INFO [com.gigaspaces.zookeeper.leader-selector.gsm.3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7] - Zookeeper connection state changed: EMPTY => CONNECTED
+[manager][1/38080]	2021-01-13 09:15:40,672 GSM INFO [com.gigaspaces.zookeeper.leader-selector.gsm.3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7] - Zookeeper connection state transition [EMPTY => CONNECTED] took 3ms
+[manager][1/38080]	2021-01-13 09:15:40,672 GSM INFO [net.jini.discovery.LookupLocatorDiscovery] - Connected to LUS using locator 127.0.0.1:4174
+[manager][1/38080]	Connection Pool BlockingResourcePool - maxConns=0
+[manager][1/38080]	2021-01-13 09:15:40,687 GSM INFO [org.apache.curator.framework.imps.EnsembleTracker] - New config event received: {}
+[manager][1/38080]	2021-01-13 09:15:40,688 GSM INFO [org.apache.curator.framework.imps.EnsembleTracker] - New config event received: {}
+[manager][1/38080]	=====> full resource pool _maxResources=1024
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: GS-event notifier
+[manager][1/38080]	=====> full resource pool _maxResources=1024
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=1 _maxResources=1024 thread: GS-SDM Cache Task
+[manager][1/38080]	2021-01-13 09:15:40,741 GSM INFO [com.gigaspaces.grid.gsm] - Starting GSM...
+[manager][1/38080]	2021-01-13 09:15:40,742 GSM INFO [com.gigaspaces.grid.gsm.peer] - A backup GSM has not yet been discovered. To ensure high availability, make sure that another GSM is running.
+[manager][1/38080]	2021-01-13 09:15:40,745 GSM INFO [com.gigaspaces.license] - You are using the GigaSpaces 'TRYME' trial license. You can explore all of the product functionality, including our Premium and Enterprise features, for 24 hours.
+[manager][1/38080]	2021-01-13 09:15:40,745 GSM INFO [com.gigaspaces.license] - When the trial license expires, this process will self-terminate. You can get an extended evaluation license from gigaspaces.com/eval-license.
+[manager][1/38080]	2021-01-13 09:15:40,746 GSM INFO [com.gigaspaces.license] - Remaining time before your trial license expires and process terminates: 23:59:59
+[manager][1/38080]	2021-01-13 09:15:40,746 GSM INFO [com.gigaspaces.license] - 
+[manager][1/38080]	-----------------------------------------------------------------------------------
+[manager][1/38080]	*  Your license will expire in 1 days.
+[manager][1/38080]	*  To extend your evaluation period please contact your local GigaSpaces(TM) 
+[manager][1/38080]	*  software sales representative or access GigaSpaces Support Center at 
+[manager][1/38080]	*  www.gigaspaces.com
+[manager][1/38080]	-----------------------------------------------------------------------------------
+[manager][1/38080]	2021-01-13 09:15:40,765 CommonClassLoader INFO [com.gigaspaces.grid.gsm] - GSM started successfully [groups=[local], locators=[jini://127.0.0.1:4174/], service-id=3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7]
+[manager][1/38080]	2021-01-13 09:15:40,782 GSM INFO [com.gigaspaces.grid.gsm] - Usage statistics periodic report will be logged every day starting 1/14/21 2:00 AM
+[manager][1/38080]	Connection Pool BlockingResourcePool - maxConns=0
+[manager][1/38080]	=====> full resource pool _maxResources=1024
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: GS-Reggie Event Task
+[manager][1/38080]	2021-01-13 09:15:40,826 REST INFO [org.eclipse.jetty.util.log] - Logging initialized @1486ms to org.eclipse.jetty.util.log.Slf4jLog
+[manager][1/38080]	2021-01-13 09:15:40,890 REST WARNING [org.eclipse.jetty.security.SecurityHandler] - Error while loading AuthenticatorFactory with ServiceLoader; Caused by: java.util.ServiceConfigurationError: org.eclipse.jetty.security.Authenticator$Factory: Provider org.eclipse.jetty.security.jaspi.JaspiAuthenticatorFactory could not be instantiated
+[manager][1/38080]	2021-01-13 09:15:40,919 REST INFO [org.eclipse.jetty.server.Server] - jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 1.8.0_211-b12
+[manager][1/38080]	2021-01-13 09:15:41,343 REST INFO [org.eclipse.jetty.server.session] - DefaultSessionIdManager workerName=node0
+[manager][1/38080]	2021-01-13 09:15:41,344 REST INFO [org.eclipse.jetty.server.session] - No SessionScavenger set, using defaults
+[manager][1/38080]	2021-01-13 09:15:41,345 REST INFO [org.eclipse.jetty.server.session] - node0 Scavenging every 660000ms
+[manager][1/38080]	2021-01-13 09:15:41,350 REST INFO [org.eclipse.jetty.server.handler.ContextHandler.ROOT] - Initializing Spring root WebApplicationContext
+[manager][1/38080]	2021-01-13 09:15:41,851 REST INFO [org.eclipse.jetty.server.handler.ContextHandler.ROOT] - Initializing Spring DispatcherServlet 'OpsManager'
+[manager][1/38080]	2021-01-13 09:15:42,697 REST INFO [net.jini.discovery.LookupLocatorDiscovery] - Connected to LUS using locator 127.0.0.1:4174
+[manager][1/38080]	Connection Pool BlockingResourcePool - maxConns=0
+[manager][1/38080]	=====> full resource pool _maxResources=1024
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: GS-event notifier
+[manager][1/38080]	2021-01-13 09:15:43,037 REST INFO [org.apache.curator.framework.imps.CuratorFrameworkImpl] - Starting
+[manager][1/38080]	2021-01-13 09:15:43,046 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:zookeeper.version=3.5.8-f439ca583e70862c3068a1f2a7d4d068eec33315, built on 05/04/2020 15:53 GMT
+[manager][1/38080]	2021-01-13 09:15:43,046 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:host.name=localhost
+[manager][1/38080]	2021-01-13 09:15:43,046 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.version=1.8.0_211
+[manager][1/38080]	2021-01-13 09:15:43,046 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.vendor=Oracle Corporation
+[manager][1/38080]	2021-01-13 09:15:43,046 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+[manager][1/38080]	2021-01-13 09:15:43,046 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.class.path=/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/sigar/sigar.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/oshi-core.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/jna.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/jna-platform.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/slf4j-jdk14-1.7.26.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/xap-slf4j.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/slf4j-api-1.7.26.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-api-0.33.0.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/xap-common.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-noop-0.33.0.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/spring-jcl-5.1.19.RELEASE.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-util-0.33.0.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/service-grid/xap-service-grid-boot.jar
+[manager][1/38080]	2021-01-13 09:15:43,046 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.library.path=/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/native
+[manager][1/38080]	2021-01-13 09:15:43,047 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.io.tmpdir=/var/folders/ky/s2sgxf8x3472nl7lwv9f2v500000gn/T/
+[manager][1/38080]	2021-01-13 09:15:43,047 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.compiler=<NA>
+[manager][1/38080]	2021-01-13 09:15:43,047 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.name=Mac OS X
+[manager][1/38080]	2021-01-13 09:15:43,047 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.arch=x86_64
+[manager][1/38080]	2021-01-13 09:15:43,047 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.version=10.15.4
+[manager][1/38080]	2021-01-13 09:15:43,047 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:user.name=mavigdor
+[manager][1/38080]	2021-01-13 09:15:43,047 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:user.home=/Users/meron
+[manager][1/38080]	2021-01-13 09:15:43,048 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:user.dir=/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/bin
+[manager][1/38080]	2021-01-13 09:15:43,048 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.memory.free=404MB
+[manager][1/38080]	2021-01-13 09:15:43,048 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.memory.max=491MB
+[manager][1/38080]	2021-01-13 09:15:43,048 REST INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.memory.total=491MB
+[manager][1/38080]	2021-01-13 09:15:43,052 REST INFO [org.apache.zookeeper.ZooKeeper] - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=15000 watcher=org.apache.curator.ConnectionState@4fc70879
+[manager][1/38080]	2021-01-13 09:15:43,060 REST INFO [org.apache.zookeeper.ClientCnxnSocket] - jute.maxbuffer value is 4194304 Bytes
+[manager][1/38080]	2021-01-13 09:15:43,066 REST INFO [org.apache.zookeeper.ClientCnxn] - zookeeper.request.timeout value is 0. feature enabled=
+[manager][1/38080]	2021-01-13 09:15:43,074 REST INFO [org.apache.zookeeper.ClientCnxn] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[manager][1/38080]	2021-01-13 09:15:43,076 REST INFO [org.apache.zookeeper.ClientCnxn] - Socket connection established, initiating session, client: /127.0.0.1:51394, server: localhost/127.0.0.1:2181
+[manager][1/38080]	2021-01-13 09:15:43,079 REST INFO [org.apache.curator.framework.imps.CuratorFrameworkImpl] - Default schema
+[manager][1/38080]	2021-01-13 09:15:43,080 REST INFO [com.gigaspaces.zookeeper] - Created ZooKeeperAttributeStore
+[manager][1/38080]	2021-01-13 09:15:43,085 REST INFO [org.apache.zookeeper.ClientCnxn] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x100436aba720001, negotiated timeout = 15000
+[manager][1/38080]	=====> full resource pool _maxResources=1024
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=1 _maxResources=1024 thread: GS-admin-scheduled-executor-thread
+[manager][1/38080]	2021-01-13 09:15:43,104 REST INFO [org.apache.curator.framework.state.ConnectionStateManager] - State change: CONNECTED
+[manager][1/38080]	=====> full resource pool _maxResources=1024
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=2 _maxResources=1024 thread: GS-SDM Cache Task
+[manager][1/38080]	2021-01-13 09:15:43,118 REST INFO [org.apache.curator.framework.imps.EnsembleTracker] - New config event received: {}
+[manager][1/38080]	2021-01-13 09:15:43,118 REST INFO [org.apache.curator.framework.imps.EnsembleTracker] - New config event received: {}
+[manager][1/38080]	Connection Pool BlockingResourcePool - maxConns=0
+[manager][1/38080]	=====> full resource pool _maxResources=1024
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: GS-SDM Cache Task
+[manager][1/38080]	2021-01-13 09:15:43,630 REST INFO [CustomRest.CustomActionReflectionScanner] - Scanning for @CustomManagerResource implementations in /Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/manager/plugins
+[manager][1/38080]	2021-01-13 09:15:43,631 REST INFO [CustomRest.CustomActionReflectionScanner] - Scan completed: candidates=0
+[manager][1/38080]	2021-01-13 09:15:43,632 REST INFO [CustomRest.CustomActionReflectionScanner] - getGetActions0
+[manager][1/38080]	2021-01-13 09:15:43,632 REST INFO [CustomRest.CustomActionReflectionScanner] - getDeleteActions0
+[manager][1/38080]	2021-01-13 09:15:43,632 REST INFO [CustomRest.CustomActionReflectionScanner] - getPostActions0
+[manager][1/38080]	2021-01-13 09:15:43,632 REST INFO [CustomRest.CustomActionReflectionScanner] - getDeleteActions0
+[manager][1/38080]	[Server@3f63a513]: [Thread[main,5,main]]: setRestartOnShutdown(false)
+[manager][1/38080]	[Server@3f63a513]: [Thread[main,5,main]]: setNoSystemExit(true)
+[manager][1/38080]	[Server@3f63a513]: [Thread[main,5,main]]: checkRunning(false) entered
+[manager][1/38080]	[Server@3f63a513]: [Thread[main,5,main]]: checkRunning(false) exited
+[manager][1/38080]	2021-01-13 09:15:43,700 REST INFO [com.gigaspaces.newwebui.db.HsqlServerBean] - HSQL Server Startup sequence initiated
+[manager][1/38080]	[Server@3f63a513]: Initiating startup sequence...
+[manager][1/38080]	[Server@3f63a513]: Server socket opened successfully in 2 ms.
+[manager][1/38080]	[Server@3f63a513]: Database [index=0, id=0, db=file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/work/db/metricsdb, alias=metricsdb] opened sucessfully in 422 ms.
+[manager][1/38080]	[Server@3f63a513]: Startup sequence completed in 425 ms.
+[manager][1/38080]	[Server@3f63a513]: 2021-01-13 09:15:44.127 HSQLDB server 2.3.2 is online on port 9101
+[manager][1/38080]	[Server@3f63a513]: To close normally, connect and execute SHUTDOWN SQL
+[manager][1/38080]	[Server@3f63a513]: From command line, use [Ctrl]+[C] to abort abruptly
+[manager][1/38080]	2021-01-13 09:15:44,214 REST INFO [com.gigaspaces.newwebui.db.HsqlServerBean] - HSQL Server listening on port 9101
+[manager][1/38080]	2021-01-13 09:15:44,238 REST INFO [com.gigaspaces.metrics.hsqldb.SharedJdbcConnectionWrapper] - Connected to [jdbc:hsqldb:hsql://127.0.0.1:9101/metricsdb]2021-01-13 09:15:44,238 GSA INFO [com.gigaspaces.metrics.hsqldb.SharedJdbcConnectionWrapper] - Connected to [jdbc:hsqldb:hsql://127.0.0.1:9101/metricsdb]
+
+[manager][1/38080]	2021-01-13 09:15:44,322 REST INFO [com.gigaspaces.newwebui.db.HsqlServerBean] - Invoking [SET FILES DEFRAG 50]
+[manager][1/38080]	2021-01-13 09:15:44,326 REST INFO [com.gigaspaces.newwebui.db.HsqlServerBean] - Retention Policy activated [delayDuration=PT1M, retainDuration=PT10M, batchSize=20000]
+[manager][1/38080]	2021-01-13 09:15:44,414 REST INFO [org.eclipse.jetty.server.handler.ContextHandler] - Started o.e.j.w.WebAppContext@85e6769{Spring MVC Application,/,file:///Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/work/rest-jetty/jetty-v2_war-_-any-1756267423116146646.dir/webapp/,AVAILABLE}{/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/manager/webapps/v2.war}
+[manager][1/38080]	2021-01-13 09:15:44,421 REST INFO [org.eclipse.jetty.server.AbstractConnector] - Started ServerConnector@40844aab{HTTP/1.1, (http/1.1)}{Merons-MacBook-Pro.local:8090}
+[manager][1/38080]	2021-01-13 09:15:44,421 REST INFO [org.eclipse.jetty.server.Server] - Started @5082ms
+[manager][1/38080]	2021-01-13 09:15:44,422 REST INFO [com.gigaspaces.manager] - Started at http://Merons-MacBook-Pro.local:8090
+2021-01-13 09:15:45,229 GSA INFO [net.jini.discovery.LookupLocatorDiscovery] - Connected to LUS using locator 127.0.0.1:4174
+Connection Pool BlockingResourcePool - maxConns=0
+=====> full resource pool _maxResources=1024
+=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: GS-event notifier
+=====> full resource pool _maxResources=1024
+=====> full resource pool _nextFreeIndex=1 _maxResources=1024 thread: GS-SDM Cache Task
+[manager][1/38080]	2021-01-13 09:15:45,294 LUS INFO [com.gigaspaces.metrics.hsqldb.SharedJdbcConnectionWrapper] - Connected to [jdbc:hsqldb:hsql://127.0.0.1:9101/metricsdb]
+[manager][1/38080]	Connection Pool BlockingResourcePool - maxConns=0
+[manager][1/38080]	=====> full resource pool _maxResources=1024
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: GS-Reggie Event Task
+[manager][1/38080]	Connection Pool BlockingResourcePool - maxConns=0
+[manager][1/38080]	=====> full resource pool _maxResources=1024
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: GS-Reggie Event Task
+[manager][1/38080]	Connection Pool BlockingResourcePool - maxConns=0
+[manager][1/38080]	=====> full resource pool _maxResources=1024
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: GS-SDM Cache Task
+[manager][1/38080]	=====> full resource pool _maxResources=1024
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=1 _maxResources=1024 thread: GS-admin-scheduled-executor-thread
+[manager][1/38080]	2021-01-13 09:15:56,520 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Expiring session 0x1004364e2fc0000, timeout of 15000ms exceeded
+[manager][1/38080]	2021-01-13 09:15:56,521 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Expiring session 0x1004364e2fc0001, timeout of 15000ms exceeded
+[manager][1/38080]	2021-01-13 09:15:56,523 ZK INFO [org.apache.zookeeper.server.ZooKeeperServer] - Expiring session 0x1004364e2fc0002, timeout of 15000ms exceeded
+[manager][1/38080]	2021-01-13 09:15:56,536 GSM INFO [com.gigaspaces.zookeeper.leader-selector.gsm.3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7] - Notified of leadership - Participant{id='3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7'} Session{id='0x100436aba720000'}
+[manager][1/38080]	2021-01-13 09:15:56,546 GSM INFO [com.gigaspaces.zookeeper.leader-selector.gsm.3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7] - Participants: [Participant{id='3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7', isLeader=true}]
+[manager][1/38080]	2021-01-13 09:15:56,547 GSM INFO [com.gigaspaces.zookeeper.leader-selector.gsm.3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7] - Submit 'onLeadershipOffered' - Participant{id='3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7'} Session{id='0x100436aba720000'}
+[manager][1/38080]	2021-01-13 09:15:56,547 GSM INFO [com.gigaspaces.zookeeper.leader-selector.gsm.3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7] - Acquire leadership semaphore - Participant{id='3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7'} Session{id='0x100436aba720000'}
+[manager][1/38080]	2021-01-13 09:15:56,548 GSM INFO [com.gigaspaces.zookeeper.leader-selector.gsm.3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7] - Invoke 'onLeadershipOffered' - Participant{id='3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7'} Session{id='0x100436aba720000'} ...
+[manager][1/38080]	2021-01-13 09:15:56,548 GSM INFO [com.gigaspaces.grid.gsm.leader] - Leadership is being offered
+[manager][1/38080]	2021-01-13 09:15:56,548 GSM INFO [com.gigaspaces.grid.gsm.leader] - Leadership taken - (took 0ms)
+2021-01-13 09:16:55,583 GSA INFO [com.gigaspaces.grid.gsa] - [gsc][2/]: Received request to start
+2021-01-13 09:16:55,584 GSA INFO [com.gigaspaces.grid.gsa] - [gsc][2/]: Starting with command [/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/bin/gs.sh, services=GSC]
+[gsc][2/]	2021-01-13 09:16:56,011 CONFIG [com.gigaspaces.logger] - Log file: /Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/logs/2021-01-13~09.16-gigaspaces-gsc_2-Merons-MacBook-Pro.local-38137.log
+[gsc][2/]	2021-01-13 09:16:55,985  INFO [com.gigaspaces.start] - Starting ServiceGrid [user=mavigdor, command="services=GSC"]
+2021-01-13 09:16:56,029 GSA INFO [com.gigaspaces.grid.gsa] - [gsc][2/38137]: Assigned process id
+[gsc][2/38137]	2021-01-13 09:16:56,176  INFO [com.gigaspaces.start] - Exported JMX Platform MBeanServer with RMI Connector [duration=0.038s, url=service:jmx:rmi:///jndi/rmi://Merons-MacBook-Pro.local:10100/jmxrmi]
+[gsc][2/38137]	2021-01-13 09:16:56,408 GSC INFO [com.gigaspaces.grid.gsc] - Starting GSC...
+[gsc][2/38137]	*********************************** System Report ***********************************
+[gsc][2/38137]	GigaSpaces XAP 15.8.0-m16
+[gsc][2/38137]	    Home: /Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16
+[gsc][2/38137]	    Lookup Groups: local
+[gsc][2/38137]	    Manager Servers: [127.0.0.1]
+[gsc][2/38137]	    License: tryme
+[gsc][2/38137]	    Managed by GSA with Id: 2
+[gsc][2/38137]	Java:
+[gsc][2/38137]	    Java Runtime: Java(TM) SE Runtime Environment 1.8.0_211-b12 (Oracle Corporation)
+[gsc][2/38137]	    Java VM: Java HotSpot(TM) 64-Bit Server VM 25.211-b12 (Oracle Corporation)
+[gsc][2/38137]	    Java Home: /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+[gsc][2/38137]	    Memory: Currently used 62MB, Current heap size 1037MB, Max heap size 1037MB
+[gsc][2/38137]	Operating System: Mac OS X [version=10.15.4, architecture=x86_64, processors=8]
+[gsc][2/38137]	Process Id: 38137
+[gsc][2/38137]	Network:
+[gsc][2/38137]	    Local Host: [Merons-MacBook-Pro.local/127.0.0.1] 
+[gsc][2/38137]	    lo0: lo0 [IP addresses: fe80:0:0:0:0:0:0:1%lo0 | 0:0:0:0:0:0:0:1%lo0 | 127.0.0.1]
+[gsc][2/38137]	*************************************************************************************
+[gsc][2/38137]	2021-01-13 09:16:56,411 GSC INFO [com.gigaspaces.license] - You are using the GigaSpaces 'TRYME' trial license. You can explore all of the product functionality, including our Premium and Enterprise features, for 24 hours.
+[gsc][2/38137]	2021-01-13 09:16:56,411 GSC INFO [com.gigaspaces.license] - When the trial license expires, this process will self-terminate. You can get an extended evaluation license from gigaspaces.com/eval-license.
+[gsc][2/38137]	2021-01-13 09:16:56,411 GSC INFO [com.gigaspaces.license] - Remaining time before your trial license expires and process terminates: 23:59:59
+[gsc][2/38137]	2021-01-13 09:16:56,412 GSC INFO [com.gigaspaces.license] - 
+[gsc][2/38137]	-----------------------------------------------------------------------------------
+[gsc][2/38137]	*  Your license will expire in 1 days.
+[gsc][2/38137]	*  To extend your evaluation period please contact your local GigaSpaces(TM) 
+[gsc][2/38137]	*  software sales representative or access GigaSpaces Support Center at 
+[gsc][2/38137]	*  www.gigaspaces.com
+[gsc][2/38137]	-----------------------------------------------------------------------------------
+[gsc][2/38137]	2021-01-13 09:16:56,848 CommonClassLoader INFO [net.jini.discovery.LookupLocatorDiscovery] - Connected to LUS using locator 127.0.0.1:4174
+[gsc][2/38137]	2021-01-13 09:16:56,856 CommonClassLoader INFO [com.gigaspaces.grid.gsc] - GSC started successfully [groups=[local], locators=[jini://127.0.0.1:4174/], service-id=eeb671d3-a2d9-4d35-995c-c27c8d5f7fb9]
+[gsc][2/38137]	2021-01-13 09:16:56,858 CommonClassLoader INFO [com.gigaspaces.grid.gsc] - GSC Class Loader: CommonClassLoader, Urls: 66
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/xap-datagrid.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/xap-asm.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/xap-trove.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/xap-premium-common.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/map/xap-map.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/near-cache/xap-near-cache.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/interop/xap-interop.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/wan-gateway/xap-wan-gateway.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/service-grid/xap-service-grid.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/jee/transactions-jta-3.8.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/jee/activation-1.1.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/jee/geronimo-j2ee-connector_1.5_spec-1.1.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/jms/jms.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/jms/xap-jms.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/metrics/xap-metrics-apm.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/metrics/xap-metrics-hsqldb.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/metrics/xap-metrics-influxdb.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/spatial/lucene-misc-7.5.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/spatial/lucene-sandbox-7.5.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/spatial/lucene-core-7.5.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/spatial/noggit-0.7.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/spatial/xap-spatial.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/spatial/lucene-analyzers-common-7.5.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/spatial/spatial4j-0.6.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/spatial/lucene-queries-7.5.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/spatial/lucene-queryparser-7.5.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/spatial/lucene-spatial-extras-7.5.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/spatial/jts-1.13.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/full-text-search/xap-full-text-search.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/full-text-search/lucene-memory-7.5.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/full-text-search/lucene-misc-7.5.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/full-text-search/lucene-sandbox-7.5.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/full-text-search/lucene-core-7.5.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/full-text-search/lucene-analyzers-common-7.5.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/full-text-search/lucene-queries-7.5.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/full-text-search/lucene-queryparser-7.5.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/jpa/geronimo-jta_1.1_spec-1.1.1.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/jpa/commons-collections-3.2.2.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/jpa/commons-lang-2.4.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/jpa/openjpa-2.2.2.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/jpa/geronimo-jpa_2.2_spec-1.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/groovy/xap-groovy.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/jruby/xap-jruby.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/scala/lib/config-1.2.1.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/scala/lib/scala-parser-combinators_2.11-1.0.3.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/scala/lib/scala-xml_2.11-1.0.3.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/scala/lib/akka-actor_2.11-2.3.4.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/scala/lib/scala-library.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/scala/lib/scala-compiler.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/scala/lib/scalap-2.11.6.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/scala/lib/scala-actors-migration_2.11-1.1.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/scala/lib/scala-actors-2.11.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/scala/lib/jline-2.12.1.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/scala/lib/scala-reflect.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/scala/lib/scala-swing_2.11-1.0.1.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/scala/lib/scala-continuations-library_2.11-1.0.2.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/scala/lib/scala-continuations-plugin_2.11.5-1.0.2.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/zookeeper/zookeeper-3.5.8.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/zookeeper/netty-all-4.1.48.Final.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/zookeeper/curator-client-5.1.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/zookeeper/xap-zookeeper.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/zookeeper/zookeeper-jute-3.5.8.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/zookeeper/curator-framework-5.1.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/zookeeper/guava-27.0.1-jre.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/zookeeper/curator-recipes-5.1.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/jdbc/hsqldb-2.3.2.jar
+[gsc][2/38137]	Parent Class Loader: System class Loader, Urls: 14
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/sigar/sigar.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/oshi-core.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/jna.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/jna-platform.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/slf4j-jdk14-1.7.26.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/xap-slf4j.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/slf4j-api-1.7.26.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-api-0.33.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/xap-common.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-noop-0.33.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/spring-jcl-5.1.19.RELEASE.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-util-0.33.0.jar
+[gsc][2/38137]	    file:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/service-grid/xap-service-grid-boot.jar
+[gsc][2/38137]	
+[gsc][2/38137]	Connection Pool BlockingResourcePool - maxConns=0
+[gsc][2/38137]	=====> full resource pool _maxResources=1024
+[gsc][2/38137]	=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: GS-event notifier
+[gsc][2/38137]	=====> full resource pool _maxResources=1024
+[gsc][2/38137]	=====> full resource pool _nextFreeIndex=1 _maxResources=1024 thread: GS-SDM Cache Task
+[manager][1/38080]	Connection Pool BlockingResourcePool - maxConns=0
+[manager][1/38080]	=====> full resource pool _maxResources=1
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=0 _maxResources=1 thread: GS-SDM Cache Task
+[gsc][2/38137]	Connection Pool BlockingResourcePool - maxConns=0
+[gsc][2/38137]	=====> full resource pool _maxResources=1024
+[gsc][2/38137]	=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: GS-SDM Cache Task
+[manager][1/38080]	2021-01-13 09:16:57,085 GSM INFO [com.gigaspaces.grid.gsm] - Registered GSC - [GSC pid[38137] host[Merons-MacBook-Pro.local/127.0.0.1] service-id[eeb671d3-a2d9-4d35-995c-c27c8d5f7fb9], stats[processors=8, Heap=925 MB / 989.9 MB]], total[GSCs=1, processors=8 (peak=8)]
+[gsc][2/38137]	2021-01-13 09:16:57,109 GSC INFO [com.gigaspaces.grid.gsc] - Registered with GSM - [GSM pid[38080] host[Merons-MacBook-Pro.local/127.0.0.1]] service-id[3fc5ccea-bcd6-40ab-aa5a-ec23c647c8a7]
+[manager][1/38080]	=====> full resource pool _maxResources=1
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=1 _maxResources=1 thread: GS-admin-scheduled-executor-thread
+[manager][1/38080]	Connection Pool BlockingResourcePool - maxConns=0
+[manager][1/38080]	=====> full resource pool _maxResources=1024
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: GS-admin-state-change-thread
+[manager][1/38080]	2021-01-13 09:17:02,143 REST WARNING [org.openspaces.admin.internal.driver.ServiceGridAdminDriver] - Purging orphan pu node in zookeeper (was not undeployed properly)
+[manager][1/38080]	2021-01-13 09:17:02,264 GSM INFO [com.gigaspaces.grid.gsm] - Deploying rgtest {type=stateful, instances=1, backups=0}
+[manager][1/38080]	2021-01-13 09:17:02,290 GSM INFO [com.gigaspaces.grid.gsm.provision] - Attempting to allocate processing unit instance [rgtest [1]] on [GSC pid[38137] host[Merons-MacBook-Pro.local/127.0.0.1] service-id[eeb671d3-a2d9-4d35-995c-c27c8d5f7fb9]] 
+[manager][1/38080]	Connection Pool BlockingResourcePool - maxConns=0
+[manager][1/38080]	=====> full resource pool _maxResources=1
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=0 _maxResources=1 thread: ProvisionPool:1610522140674-0
+[gsc][2/38137]	2021-01-13 09:17:02,317 GSC INFO [com.gigaspaces.grid.gsc] - Instantiating rgtest [1]
+[gsc][2/38137]	2021-01-13 09:17:02,416 rgtest [1] INFO [org.apache.curator.framework.imps.CuratorFrameworkImpl] - Starting
+[gsc][2/38137]	2021-01-13 09:17:02,423 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:zookeeper.version=3.5.8-f439ca583e70862c3068a1f2a7d4d068eec33315, built on 05/04/2020 15:53 GMT
+[gsc][2/38137]	2021-01-13 09:17:02,423 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:host.name=localhost
+[gsc][2/38137]	2021-01-13 09:17:02,423 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.version=1.8.0_211
+[gsc][2/38137]	2021-01-13 09:17:02,423 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.vendor=Oracle Corporation
+[gsc][2/38137]	2021-01-13 09:17:02,424 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+[gsc][2/38137]	2021-01-13 09:17:02,424 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.class.path=/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/sigar/sigar.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/oshi-core.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/jna.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/optional/oshi/jna-platform.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/slf4j-jdk14-1.7.26.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/xap-slf4j.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/slf4j-api-1.7.26.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-api-0.33.0.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/xap-common.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-noop-0.33.0.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/spring-jcl-5.1.19.RELEASE.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/required/opentracing-util-0.33.0.jar:/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/service-grid/xap-service-grid-boot.jar
+[gsc][2/38137]	2021-01-13 09:17:02,424 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.library.path=/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/lib/platform/native
+[gsc][2/38137]	2021-01-13 09:17:02,424 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.io.tmpdir=/var/folders/ky/s2sgxf8x3472nl7lwv9f2v500000gn/T/
+[gsc][2/38137]	2021-01-13 09:17:02,424 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:java.compiler=<NA>
+[gsc][2/38137]	2021-01-13 09:17:02,424 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.name=Mac OS X
+[gsc][2/38137]	2021-01-13 09:17:02,425 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.arch=x86_64
+[gsc][2/38137]	2021-01-13 09:17:02,425 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.version=10.15.4
+[gsc][2/38137]	2021-01-13 09:17:02,425 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:user.name=mavigdor
+[gsc][2/38137]	2021-01-13 09:17:02,425 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:user.home=/Users/meron
+[gsc][2/38137]	2021-01-13 09:17:02,426 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:user.dir=/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/bin
+[gsc][2/38137]	2021-01-13 09:17:02,426 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.memory.free=908MB
+[gsc][2/38137]	2021-01-13 09:17:02,426 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.memory.max=989MB
+[gsc][2/38137]	2021-01-13 09:17:02,426 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Client environment:os.memory.total=989MB
+[gsc][2/38137]	2021-01-13 09:17:02,429 rgtest [1] INFO [org.apache.zookeeper.ZooKeeper] - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=15000 watcher=org.apache.curator.ConnectionState@3e08be49
+[gsc][2/38137]	2021-01-13 09:17:02,435 rgtest [1] INFO [org.apache.zookeeper.common.X509Util] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+[gsc][2/38137]	2021-01-13 09:17:02,439 rgtest [1] INFO [org.apache.zookeeper.ClientCnxnSocket] - jute.maxbuffer value is 4194304 Bytes
+[gsc][2/38137]	2021-01-13 09:17:02,446 rgtest [1] INFO [org.apache.zookeeper.ClientCnxn] - zookeeper.request.timeout value is 0. feature enabled=
+[gsc][2/38137]	2021-01-13 09:17:02,455 rgtest [1] INFO [org.apache.zookeeper.ClientCnxn] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[gsc][2/38137]	2021-01-13 09:17:02,455 rgtest [1] INFO [org.apache.curator.framework.imps.CuratorFrameworkImpl] - Default schema
+[gsc][2/38137]	2021-01-13 09:17:02,455 rgtest [1] INFO [org.apache.zookeeper.ClientCnxn] - Socket connection established, initiating session, client: /127.0.0.1:51448, server: localhost/127.0.0.1:2181
+[gsc][2/38137]	2021-01-13 09:17:02,456 rgtest [1] INFO [com.gigaspaces.zookeeper] - Created ZooKeeperAttributeStore
+[gsc][2/38137]	2021-01-13 09:17:02,463 rgtest [1] INFO [org.apache.zookeeper.ClientCnxn] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x100436aba720002, negotiated timeout = 15000
+[gsc][2/38137]	2021-01-13 09:17:02,476 rgtest [1] INFO [org.apache.curator.framework.state.ConnectionStateManager] - State change: CONNECTED
+[gsc][2/38137]	2021-01-13 09:17:02,486 rgtest [1] INFO [org.apache.curator.framework.imps.EnsembleTracker] - New config event received: {}
+[gsc][2/38137]	2021-01-13 09:17:02,486 rgtest [1] INFO [org.apache.curator.framework.imps.EnsembleTracker] - New config event received: {}
+[gsc][2/38137]	2021-01-13 09:17:02,494 rgtest [1] INFO [org.openspaces.pu.container.servicegrid.PUServiceBeanImpl] - BeanLevelProperties Context {dataGridName=rgtest} Beans {}
+[gsc][2/38137]	2021-01-13 09:17:02,506 rgtest [1] INFO [org.openspaces.pu.container.servicegrid.PUServiceBeanImpl] - ClusterInfo [name[rgtest] schema[partitioned] numberOfInstances[1] numberOfBackups[0] instanceId[1] backupId[null]]
+[gsc][2/38137]	Connection Pool BlockingResourcePool - maxConns=0
+[gsc][2/38137]	=====> full resource pool _maxResources=1024
+[gsc][2/38137]	=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: GS-LRMI-Connection-pool-1-thread-1
+[gsc][2/38137]	2021-01-13 09:17:02,522 rgtest [1] INFO [org.openspaces.pu.container.servicegrid.PUServiceBeanImpl] - Copying from GSM [/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/deploy//templates/datagrid] to [/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/deploy] ...
+[gsc][2/38137]	2021-01-13 09:17:02,982 rgtest [1] INFO [com.gigaspaces.container] - Starting space...
+[gsc][2/38137]	2021-01-13 09:17:03,226 rgtest [1] INFO [com.gigaspaces.zookeeper] - Created ZooKeeperAttributeStore
+[gsc][2/38137]	2021-01-13 09:17:03,580 rgtest [1] INFO [com.gigaspaces.space.rgtest.1] - Space started [duration=0.597s, url=/./rgtest?total_members=1,0&cluster_schema=partitioned&id=1&schema=default&locators=127.0.0.1&groups=local&state=started, policy=all-in-cache, persistency-mode=memory]
+[gsc][2/38137]	2021-01-13 09:17:03,654 rgtest [1] INFO [org.openspaces.pu.container.servicegrid.PUServiceBeanImpl] - registering invocable services: {}
+[gsc][2/38137]	2021-01-13 09:17:03,683 GSC INFO [com.gigaspaces.grid.gsc] - Instantiated rgtest [1] in 1.36 seconds
+[manager][1/38080]	2021-01-13 09:17:03,687 GSM INFO [com.gigaspaces.grid.gsm.provision] - Allocated processing unit instance [rgtest [1]] on [GSC pid[38137] host[Merons-MacBook-Pro.local/127.0.0.1] service-id[eeb671d3-a2d9-4d35-995c-c27c8d5f7fb9]]
+[manager][1/38080]	Connection Pool BlockingResourcePool - maxConns=0
+[manager][1/38080]	Connection Pool BlockingResourcePool - maxConns=0
+[manager][1/38080]	=====> full resource pool _maxResources=1024
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: GS-Reggie Event Task
+[manager][1/38080]	=====> full resource pool _maxResources=1
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=0 _maxResources=1 thread: GS-SDM Cache Task
+[manager][1/38080]	Connection Pool BlockingResourcePool - maxConns=0
+[manager][1/38080]	=====> full resource pool _maxResources=1
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=0 _maxResources=1 thread: GS-SDM Cache Task
+[manager][1/38080]	2021-01-13 09:17:03,718 GSM INFO [com.gigaspaces.grid.gsm.services] - Managing Service: [rgtest [1]] at host: [127.0.0.1] 
+[gsc][2/38137]	Connection Pool BlockingResourcePool - maxConns=0
+[gsc][2/38137]	=====> full resource pool _maxResources=1024
+[gsc][2/38137]	=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: GS-LRMI-Connection-pool-1-thread-1
+[manager][1/38080]	2021-01-13 09:17:40,549 ZK INFO [org.apache.zookeeper.server.ContainerManager] - Attempting to delete candidate container: /xap/locks/pus/rgtest
+[gsc][2/38137]	Connection Pool BlockingResourcePool - maxConns=0
+[gsc][2/38137]	=====> full resource pool _maxResources=1024
+[gsc][2/38137]	=====> full resource pool _nextFreeIndex=0 _maxResources=1024 thread: ProvisionLeaseManager
+[manager][1/38080]	=====> full resource pool _maxResources=1
+[manager][1/38080]	=====> full resource pool _nextFreeIndex=1 _maxResources=1 thread: GS-admin-scheduled-executor-thread
+[manager][1/38080]	2021-01-13 09:18:40,550 ZK INFO [org.apache.zookeeper.server.ContainerManager] - Attempting to delete candidate container: /xap/locks/pus
+[manager][1/38080]	2021-01-13 09:19:40,548 ZK INFO [org.apache.zookeeper.server.ContainerManager] - Attempting to delete candidate container: /xap/locks
+2021-01-13 09:20:38,951 GSA INFO [com.gigaspaces.license] - Remaining time before your trial license expires and process terminates: 23:54:59
+[manager][1/38080]	2021-01-13 09:20:40,738 GSM INFO [com.gigaspaces.license] - Remaining time before your trial license expires and process terminates: 23:54:59
+/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/bin/gs.sh: line 28: 38068 Killed: 9               $GS_COMMAND
+/Users/meron/Work/builds/15.8-m16/gigaspaces-xap-enterprise-15.8.0-m16/bin/gs.sh: line 28: 38076 Killed: 9               $GS_COMMAND
